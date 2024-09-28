@@ -7,6 +7,7 @@ import Feature from './components/Feature'
 import Demo from './components/Demo'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
+import Signup from './components/Signup';
 
 const App = () => {
   const [theme, setTheme] = useState('light');
@@ -16,13 +17,14 @@ const App = () => {
   };
   return (
     <>
-    <div>
-    <ThemeToggle/>
+    {/* <div> */}
+    {/* <ThemeToggle/>
     <Feature/>
     <Demo/>
     <FAQ/>
-    <Footer/>
-    </div>
+    <Footer/> */}
+    {/* </div> */}
+    <Signup/>
     </>
   )
 }
