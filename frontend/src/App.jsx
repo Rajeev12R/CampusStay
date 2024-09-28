@@ -8,6 +8,7 @@ import Demo from './components/Demo'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 import Signup from './components/Signup';
+import Login from './components/Login';
 
 const App = () => {
   const [theme, setTheme] = useState('light');
@@ -24,7 +25,8 @@ const App = () => {
     <FAQ/>
     <Footer/> */}
     {/* </div> */}
-    <Signup/>
+    {/* <Signup/> */}
+    <Login/>
     </>
   )
 }
